@@ -1,7 +1,6 @@
-name: streamlit_env
+name: streamlit
 channels:
   - conda-forge
 dependencies:
   - python=3.10
-  - streamlit
   

@@ -13,57 +13,53 @@ This calculator helps users estimate their interest earnings over a specified ti
 
 The app computes the interest based on the number of days between a user-specified start and end date.
 
-## 🖼️ Demo Screenshot
-
-![Screenshot](assets/screenshot.png)
-
 ## 🚀 How to Use
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/HJJ1981/interest-calculator-dashboard.git
-   cd interest-calculator-dashboard
+   git clone https://github.com/HJJ1981/interest_calculator_app.git
+   cd interest_calculator_app
    ```
 
-2. **Install the required packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Create a new conda environment**:
+2. **Create a new conda environment**:
    ```bash
    conda env create -f environment.yml
    ```
 
+3. **Install the required packages**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 3. **Run the Streamlit app**:
    ```bash
-   streamlit run interest_calculator.py
+   streamlit run app.py
    ```
+
+---
 
 ## 🧪 Example
 
 Enter:
 - A deposit amount (e.g., `$120,000`)
-- A start and end date (e.g., `2024-01-01` to `2024-12-31`)
+- A start and end date (e.g., `2026-01-01` to `2026-12-31`)
 
 You will receive:
 - Number of days (e.g., `365`)
 - Estimated interest earned (e.g., `$2,010.68`)
 
-## 📦 Project Files
+---
+
+## 📂 Project Structure
 
 ```
-interest-calculator-dashboard/
-├── assets/
-│   └── screenshot.png             # Optional
-├── interest_calculator.py         # Streamlit dashboard script
-├── environment.yml                # Conda environment file
-├── render.yml                     # Deployment on Render        
-├── requirements.txt               # pip dependencies
-├── .gitignore                     # Files to ignore in version control
-├── README.md                      # Project documentation
-├── reference.md                   # Streamlit documentation
+interest-calculator-app/
+├── app.py               # Main dashboard script
+├── environment.yml      # Conda environment file     
+├── requirements.txt     # Python dependencies
 ```
+
+---
 
 ## 🛠️ Tech Stack
 
@@ -71,10 +67,10 @@ interest-calculator-dashboard/
 - [Streamlit](https://streamlit.io/)
 - datetime module
 
-## 📎 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
-**Created with ❤️ using Streamlit**
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
