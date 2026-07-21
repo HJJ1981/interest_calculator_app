@@ -24,6 +24,7 @@ The app computes the interest based on the number of days between a user-specifi
 2. **Create a new conda environment**:
    ```bash
    conda env create -f environment.yml
+   conda activate streamlit
    ```
 
 3. **Install the required packages**:
@@ -74,3 +75,17 @@ interest-calculator-app/
 This project is licensed under the MIT License.
 
 ---
+
+## 👨‍💻 Author
+
+Hu Jian Jin
+
+GitHub:
+https://github.com/HJJ1981
+
+LinkedIn:
+https://www.linkedin.com/in/jian-jin-hu-69951243/
+
+---
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
